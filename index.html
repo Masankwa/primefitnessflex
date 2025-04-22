@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Primefitness Flex offers expert fitness gear advice and links to top Amazon products to help you achieve your fitness goals.">
+		<meta name="keywords" content="fitness gear, fitness products, Amazon fitness, dumbbells, fitness tracker, yoga mat, buy fitness gear online">
+		<meta property="og:title" content="Primefitness Flex - Your Guide to the Best Fitness Gear">
+		<meta property="og:description" content="Expert reviews and recommendations for top fitness products.">
+		<meta property="og:image" content="images/preview.jpg">
+		<meta property="og:url" content="https://yourdomain.com">
+		<meta property="og:type" content="website">
+		<title>Primefitness Flex | Expert Reviews & Deals on Fitness Gear</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="images/logo.png">
+	</head>
+	<body>
+		<!--Header Section-->
+		<header id="main-header">
+			<div class="header-container">
+				<div class="left">
+					<img src="images/logo.png" alt="logo">
+				</div>
+				<div class="right">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main>
+		<!--Hero Section-->
+		<div class="hero">
+			<div class="slides">
+					<div class="slide active">
+							<div class="slide-content">
+									<h3>Your Guide to the Best Fitness Gear</h3>
+									<p>Get expert advice on the best fitness products to match your goals.</p>
+							</div>
+					</div>
+					<div class="slide">
+							<div class="slide-content-1">
+								<div class="hero-card">
+									<span class="discount-badge">10% OFF</span>
+									<img src="images/dumbell1.jpg" alt="Adjustable Dumbbells">
+									<h2>Bowflex SelectTech 552 Adjustable Dumbbells</h2>
+									<p>WIDER WEIGHT RANGE, TURN OF A DIAL, SPACE EFFICIENT, COMPACT DESIGN</p>
+									<a href="https://amzn.to/4lGkPP5" class="hero-btn" target="_blank">Buy Now</a>
+								</div>
+										
+									
+							</div>
+					</div>
+					<div class="slide">
+							<div class="slide-content-1">
+								<div class="hero-card">
+									<span class="discount-badge">20% OFF</span>
+									<img src="images/resistancebands.jpg" alt="Fitness Watch">
+									<h2>Resistance Bands for Working Out</h2>
+									<p>Resistance Bands 5 Pack, Booty Bands Thicken, Exercise Bands Portable</p>
+									<a href="https://amzn.to/3Ezhlx8" class="hero-btn" target="_blank">Buy Now</a>
+								</div>
+							</div>
+					</div>
+			</div>
+			<div class="buttons">
+					<button onclick="prevSlide()">&#60</button>
+					<button onclick="nextSlide()">&#62</button>
+			</div>
+			<div class="dots">
+					<div class="dot active" onclick="changeSlide(0)"></div>
+					<div class="dot" onclick="changeSlide(1)"></div>
+					<div class="dot" onclick="changeSlide(2)"></div>
+			</div>
+	</div>
+
+
+	<!--featured section-->
+	<section class="featured">
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+        <div class="product">
+            <img src="images/fit6.jpg" alt="Product 1">
+            <h3>Fitbit Charge 6 Fitness Tracker</h3>
+            <p class="price">$119.95</p>
+			<a href="https://amzn.to/3Ezxl22" target="_blank">Get it on amazon</a>
+            
+        </div>
+        <div class="product">
+            <img src="images/yogamat.jpg" alt="Product 2">
+            <h3>Retrospec Solana Yoga Mat</h3>
+            <p class="price">$39.99</p>
+            <a href="https://amzn.to/4jE9vBP" target="_blank">Get it on amazon</a>
+        </div>
+        <div class="product">
+            <img src="images/brooks.jpg" alt="Product 3">
+            <h3>Ghost 16 Neutral Running Shoe</h3>
+            <p class="price">$109.95</p>
+            <a href="https://amzn.to/3EEUXCo" target="_blank">Get it on amazon</a>
+        </div>
+    </div>
+	</section>
+
+	<!--shop section-->
+
+	<section class="shop-section">
+    <h2>Recommended Products</h2>
+    
+    <!-- Search Bar -->
+    <div class="shop-search">
+        <input type="text" id="product-search" placeholder="Search for a product...">
+    </div>
+
+    <!-- Products Grid -->
+    <div class="shop-grid" id="product-list">
+        <!-- Products will be injected here dynamically -->
+    </div>
+
+    <!-- Pagination Controls -->
+    <div class="shop-pagination">
+        <button id="prev-page">Previous</button>
+        <span id="shop-page-info">Page 1</span>
+        <button id="next-page">Next</button>
+    </div>
+	</section>
+	</main>
+
+	<!--footer-->
+
+	<footer class="site-footer">
+		<div class="footer-content">
+			<div class="footer-contact">
+				<h3>Contact Us</h3>
+				<p>Email: <a href="mailto:primefitnessflex@email.com">primefitnessflex@email.com</a></p>
+			</div>
+	
+			<div class="footer-powered">
+				<p>Powered by <strong>Amazon</strong></p>
+			</div>
+		</div>
+	
+		<div class="footer-bottom">
+			<p>&copy; 2025 Primefitness Flex. All rights reserved.</p>
+		</div>
+	</footer>
+	
+
+
+	<script src="script.js"></script>
+
+	</body>
+</html>
