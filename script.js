@@ -74,11 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "YOSUDA Indoor Cycling Bike ", price: "$249.99", img: "images/indoorbike.jpg", link: "https://amzn.to/42IP6nS" },
         { name: "Jump Rope, Tangle-Free Rapid Speed Jumping Rope ", price: "$8.99", img: "images/jumpingrope.jpg", link: "https://amzn.to/3YyKjEj" },
         { name: "Mini Stair Stepper with Resistance Bands ", price: "$59.99", img: "images/stairbands.jpg", link: "https://amzn.to/42JhDtt" },
-        { name: "Mini Stair Stepper with Resistance Bands ", price: "$59.99", img: "images/stairbands.jpg", link: "https://amzn.to/42JhDtt" },
+        { name: "Zavothy Hydration Backpack ", price: "$23.99", img: "images/hydrationpack.jpg", link: "https://amzn.to/432mQ0E" },
         { name: "WHOOP 4.0 - Wearable Health, Fitness & Activity Tracker ", price: "$239.00", img: "images/whoopwatch.jpg", link: "https://amzn.to/3GwVt5Y" },
         { name: "Extra Thick Exercise Yoga Mat  ", price: "$21.98", img: "images/yogamatt.jpg", link: "https://amzn.to/4lGXRHB" },
-        { name: "FuelMeFoot 3 Pack Copper Compression Socks  ", price: "$14.99", img: "images/compressionsocks.jpg", link: "https://amzn.to/42oBBdV" }
-
+        { name: "FuelMeFoot 3 Pack Copper Compression Socks  ", price: "$14.99", img: "images/compressionsocks.jpg", link: "https://amzn.to/42oBBdV" },
+        { name: " ProBody Pilates Fitness Ring ", price: "$24.95", img: "images/pilates.jpg", link: "https://amzn.to/42N0JtI" },
+        { name: " Yoga Strap Physical Therapy for Home Workout ", price: "$5.99", img: "images/yogastrap.jpg", link: "https://amzn.to/3YE9UM7" },
+        { name: " Under Armour Half Gallon Water Bottle Insulated ", price: "$25.00", img: "images/uabottle.jpg", link: "https://amzn.to/4jnHD4t" }
     ];
 
     const productList = document.getElementById("product-list");
